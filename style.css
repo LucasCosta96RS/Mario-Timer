@@ -1,0 +1,114 @@
+@font-face {
+  font-family: "Super Mario";
+  src: url(./assets/SuperMario256.ttf);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: 0;
+  font-family: "Super Mario";
+}
+
+#wrapper {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(./assets/Mario-background.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  z-index: 0;
+}
+
+#container-timer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#container-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+#mario-image {
+  display: none;
+}
+
+h1 {
+  margin-top: 175px;
+  font-size: 100px;
+  cursor: default;
+  animation: h1 1s infinite;
+  animation-delay: calc(0.1s * var(--i));
+}
+
+b {
+  margin: 10px 0;
+  font-size: 50px;
+  cursor: default;
+}
+
+.buttons {
+  margin: 20px 20px;
+  font-family: "Super Mario";
+  font-size: 20px;
+  background: none;
+  border: none;
+  z-index: 1;
+  cursor: url(./assets/cursor.cur), auto;
+}
+
+.buttons:hover {
+  transition-timing-function: linear;
+  transition-duration: 200ms;
+  transform: scale(1.2, 1.2) translate3d(0, 0, 0);
+}
+
+@keyframes h1 {
+  0%,
+  40%,
+  100% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(-20px);
+  }
+}
+
+@media screen and (width < 1300px) {
+  body {
+    background-color: #d03438;
+  }
+
+  #wrapper {
+    background-image: none;
+    background-size: cover;
+  }
+
+  #container-mario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mario-image {
+    display: initial;
+    width: 60%;
+  }
+
+  h1 {
+    font-size: 60px;
+  }
+
+  b {
+    font-size: 50px;
+  }
+
+  .buttons {
+    font-size: 20px;
+  }
+}
