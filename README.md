@@ -4,8 +4,9 @@ I would like to present this cool new addition to my portfolio. This project was
 It adapts itself and changes as the screen size changes. Building this project was an adventure for me, i started with something in my mind and in the end changed to something better than i could expect. It made me learn how to use Fonts outside of the web as i was using earlier with the Google Fonts website
 , discover new animations for my texts, and improve my responsive website techniques.
 
-
-
+<br>
+<h3><a href="https://lucascosta96rs.github.io/Mario-Timer/">🔗 Deployed Website 🔗</a></h3>
+<br>
 
 
 <h2>Languages and tools used:</h2>
