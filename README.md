@@ -5,7 +5,7 @@ It adapts itself and changes as the screen size changes. Building this project w
 , discover new animations for my texts, and improve my responsive website techniques.
 
 <br>
-<h3><a href="https://lucascosta96rs.github.io/Mario-Timer/">🔗 Deployed Website 🔗</a></h3>
+<h3><a href="https://lucascosta96rs.github.io/mario-timer/">🔗 Deployed Website 🔗</a></h3>
 <br>
 
 
